@@ -1,4 +1,4 @@
-# Human ID
+# Human ID ![.github/workflows/test.yml](https://github.com/orf/human_id/workflows/test/badge.svg)
 
 A simple library for generating human IDs like `look-dead-game-story` or `get-nice-office-side`. 
 

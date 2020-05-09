@@ -1,9 +1,10 @@
 [tool.poetry]
 name = "human_id"
-version = "0.1.0"
+version = "0.1.0.post2"
 description = "Human readable IDs, in Python"
 authors = ["Tom Forbes <tom@tomforb.es>"]
 license = "MIT"
+readme = "README.md"
 
 [tool.poetry.dependencies]
 python = ">=3.6"

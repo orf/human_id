@@ -23,6 +23,24 @@ import uuid
 generate_id(seed=uuid.uuid4())
 ```
 
+## CLI
+
+This module also comes with a small command line tool: `humanid-gen`
+
+```
+❯ humanid-gen --help
+Usage: humanid-gen [OPTIONS]
+
+  Generate human readable IDs
+
+Options:
+  --words INTEGER  Number of words
+  --sep TEXT       Separator
+  --seed TEXT      Seed to use
+  --count INTEGER  Number of IDs to generate
+  --help           Show this message and exit.
+```
+
 ## Implementation
 
 This library contains 100 of the most common English nouns, adjectives and verbs, and will 

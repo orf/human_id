@@ -9,7 +9,7 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = ">=3.6"
-click = "^7.1.2"
+click = ">=7.1.2,<9"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.4.2"

@@ -8,14 +8,14 @@ license = "MIT"
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = ">=3.6"
-click = ">=7.1.2,<9"
+python = ">=3.7"
+click = "*"
 
 [tool.poetry.dev-dependencies]
-pytest = "^5.4.2"
-pytest-mock = "^3.1.0"
-jinja2 = "^2.11.2"
-pytest-black = "^0.3.9"
+pytest = "*"
+pytest-mock = "*"
+jinja2 = "*"
+pytest-black = "*"
 
 [tool.poetry.scripts]
 humanid-gen = 'human_id.cli:main'

@@ -15,6 +15,6 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-pip-
 
-      - uses: dschep/install-poetry-action@v1.3
+      - uses: snok/install-poetry@v1
       - run: poetry install
       - run: poetry run pytest

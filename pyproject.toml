@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "human_id"
-version = "0.1.0.post3"
+version = "0.2.0"
 description = "Human readable IDs, in Python"
 repository = "https://github.com/orf/human_id"
 authors = ["Tom Forbes <tom@tomforb.es>"]

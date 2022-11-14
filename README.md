@@ -20,7 +20,7 @@ generate_id(word_count=10)
 
 # Custom seed - the same UUID will produce the same ID.
 import uuid
-generate_id(seed=uuid.uuid4())
+generate_id(seed=uuid.uuid4().int)
 ```
 
 ## CLI

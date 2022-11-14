@@ -1,14 +1,14 @@
 import random
 import itertools
-from typing import Hashable
+from typing import Union
 from . import dictionary
 
 __all__ = ["generate_id"]
 
 system_random = random.SystemRandom()
+SeedableType = Union[type(None), int, float, str, bytes, bytearray]
 
-
-def generate_id(separator="-", seed: Hashable = None, word_count=4) -> str:
+def generate_id(separator="-", seed: SeedableType = None, word_count=4) -> str:
     """
     Generate a human readable ID
 
